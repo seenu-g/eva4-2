@@ -5,6 +5,7 @@ except ImportError:
 
 import json
 import logging
+import base64
 
 from imagenet import ImageNetHelper
 
