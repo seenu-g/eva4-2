@@ -6,7 +6,7 @@ except ImportError:
 import json
 import logging
 import base64
-
+from requests_toolbelt.multipart import decoder
 from imagenet import ImageNetHelper
 
 # Initialize you log configuration using the base class
@@ -46,7 +46,7 @@ S3_BUCKET = "eva4-p2"
 def classify_image(event, context):
     try:
         content_type_header = event["headers"]["content-type"]
-        body = base64.b64decode(event["body"])
+        body = base64.b64decode(event["body"],validate=False)
         logger.info("Body Loaded")
 
         picture = decoder.MultipartDecoder(body, content_type_header).parts[0]
