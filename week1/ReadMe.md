@@ -4,9 +4,9 @@
 Deploy a pre-trained  model of Mobilenet_v2 on AWS Lambda using Serverless and classify  images.
 
 ### **Results**:
-Hosted the model at this endpoint : https://pa1f737kg4.execute-api.us-east-1.amazonaws.com/dev/week1-dev-classify_image
-Ran for this image: data/Yellow-Labrador-Retriever
-Response image : api_response_insomnia_snapshots.png
+1. Hosted at  endpoint : https://pa1f737kg4.execute-api.us-east-1.amazonaws.com/dev/week1-dev-classify_image
+2. Input image : data/Yellow-Labrador-Retriever
+3. Response image screenshot: api_response_insomnia_snapshots.png
 
 ## 2. Steps (Developer Section)
 #### Step 0 Pre-requisites
