@@ -32,7 +32,7 @@ provider:
     - Effect: "Allow"
       Action:
           - s3:getObject
-      Resource: arn:aws:s3:::eva4-2/artifacts/week1/*
+      Resource: arn:aws:s3:::eva4-2/*
 #      Resource: { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "ServerlessDeploymentBucket" } ] ]  }
 #    - Effect: "Allow"
 #      Action:
