@@ -25,7 +25,7 @@ provider:
     name: aws
     runtime: python3.7
     stage: dev
-    region: ap-south-1
+    region: us-east-1
     timeout: 60
     apiGateway:
         binaryMediaTypes:
@@ -36,7 +36,7 @@ provider:
           Action:
               - s3:PutObject
               - s3:getObject
-          Resource: arn:aws:s3:::eva4-p2/*
+          Resource: arn:aws:s3:::eva4-2/*
 
 # you can overwrite defaults here
 #  stage: dev

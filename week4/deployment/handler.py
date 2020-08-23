@@ -18,7 +18,7 @@ headers = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Credentials": True,
 }
-S3_BUCKET = "eva4-p2"
+S3_BUCKET = "eva4-2"
 
 
 def hello(event, context):
