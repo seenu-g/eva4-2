@@ -7,8 +7,8 @@ from datetime import datetime
 from decouple import config
 
 AUTHOR = "Srinivasan.G"
-SITENAME = "RS Group"
-SITETITLE = "RS Group"
+SITENAME = "eva4-2"
+SITETITLE = "eva4-2"
 SITEURL = config("SITE_URL")
 
 PATH = "content"
