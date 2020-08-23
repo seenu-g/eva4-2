@@ -21,7 +21,7 @@ exclude = "(\n  /(\n      \\.eggs         # exclude a few common directories in 
 ignore = [ "PKG-INFO", "*.egg-info", "*.egg-info/*", "setup.cfg", ".hgtags", ".hgsigs", ".hgignore", ".gitignore", ".bzrignore", ".gitattributes", ".github/*", ".travis.yml", "Jenkinsfile", "*.mo",]
 
 [tool.poetry]
-name = "eva4-p2"
+name = "eva4-2"
 version = "0.1.0"
 description = "All the course work part of EVA4 Phase 2 for the RS Group."
 authors = [ "Ramjee Ganti <code@ramjeeganti.com>", "Roshan P <roshantac@gmail.com>", "Sujit Ojha <sujit.ojha@gmail.com>", "Srinivasan G <srinivasan.gsvasan@gmail.com>", "Dr P V Rajesh Kumar <drpvrajeshkumar@gmail.com>",]
