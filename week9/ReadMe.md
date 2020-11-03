@@ -1,4 +1,9 @@
 
+pip install torchtext
+python -m spacy download en
+pip install transformers
+
+
 [Examples of how to to do sentiment analysis](https://github.com/bentrevett/pytorch-sentiment-analysis)
 * [1 - Simple Sentiment Analysis](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/1%20-%20Simple%20Sentiment%20Analysis.ipynb).
 nlp1.ipynb: load data, create train/test/validation splits, build a vocabulary, create data iterators, define a model and implement the train/evaluate/test loop.
