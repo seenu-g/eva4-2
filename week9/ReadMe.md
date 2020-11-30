@@ -10,7 +10,14 @@ nlp3.ipynb: 2 ~ different approach that does not use RNNs
 nlp4.ipynb: convolutional neural networks (CNNs) for sentiment analysis
  [5- Multi-class Sentiment Analysis](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/5%20-%20Multi-class%20Sentiment%20Analysis.ipynb)
  nlp5.ipynb over the case where we have more than 2 classes, as is common in NLP
+ [6- Transformers for Sentiment Analysis](https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/6%20-%20Transformers%20for%20Sentiment%20Analysis.ipynb)
+nlp6.ipynb using the BERT (Bidirectional Encoder Representations from Transformers) model. we are going to use the transformers library to get pre-trained transformers and use them as our embedding layers. We will freeze (not train) the transformer and only train the remainder of the model which learns from the representations produced by the transformer.
 
 pip install torchtext
 python -m spacy download en
 pip install transformers
+
+
+References
+[1.BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+[2.Attention Is All You Need](https://arxiv.org/abs/1706.03762)
